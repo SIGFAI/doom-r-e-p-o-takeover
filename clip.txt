@@ -1,0 +1,7 @@
+Moments the clip must show (ticked only if seen in the screenshots):
+[x] 1. A rubber Duck waddles at the player, the chaingun hits it: feathers fly, it dies.
+[x] 2. Dead monsters drop loot that flies to the player on a blue beam; the HAUL counter goes up with gold +$ lines.
+[x] 3. A gnome pack charges in; a vase gets smashed (by a duck honk or a bullet): red -$ smashed line.
+[x] 4. The Hunter fires its rifle (muzzle flash) and dies.
+[x] 5. The haul passes the quota: gold flash, QUOTA MET message, banked total. (It comes early, around 15 s.)
+Weak spot: the pilot lets crowds of ducks and gnomes pile up on the camera.
