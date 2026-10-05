@@ -1,0 +1,79 @@
+{
+  "id": "sigf/doom-r-e-p-o-takeover",
+  "version": "1.0.0",
+  "name": "R.E.P.O. Takeover",
+  "tagline": "Bring R.E.P.O. into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "doom",
+      "role": "host",
+      "engine": "GZDoom 4.14.2 + Freedoom 2"
+    },
+    {
+      "game": "repo",
+      "role": "guest",
+      "label": "R.E.P.O.",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "gzdoom"
+    },
+    {
+      "id": "freedoom2"
+    }
+  ],
+  "install": [
+    {
+      "game": "doom",
+      "strategy": "args",
+      "files": [
+        {
+          "src": "doom-r-e-p-o-takeover.pk3",
+          "dst": "{app}/mod.pk3",
+          "unpack": false,
+          "url": "https://github.com/SIGFAI/doom-r-e-p-o-takeover/releases/download/v1.0.0/doom-r-e-p-o-takeover.pk3",
+          "sha256": "211121ae074b506b8cf0a53faa6e9075bc4d04df50f8288da21d302588d0bec8",
+          "size": 180806
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "doom",
+      "args": [
+        "-file",
+        "{app}/mod.pk3"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "doom-r-e-p-o-takeover.pk3",
+      "url": "https://github.com/SIGFAI/doom-r-e-p-o-takeover/releases/download/v1.0.0/doom-r-e-p-o-takeover.pk3",
+      "sha256": "211121ae074b506b8cf0a53faa6e9075bc4d04df50f8288da21d302588d0bec8",
+      "size": 180806
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/doom-r-e-p-o-takeover",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "doom",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:23:04.203Z",
+  "notes": [
+    "Copy mod.pk3 next to GZDoom and run: gzdoom -iwad freedoom2.wad -file mod.pk3. Kill monsters, walk near the gold to grab it, and reach the quota on the top-left counter."
+  ]
+}
