@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "R.E.P.O. Takeover",
   "tagline": "Bring R.E.P.O. into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Haul loot to meet the quota on the top-left counter while ducks, knife gnomes and hunters attack.",
+    "Kill monsters to make them drop valuables; walk close and the loot is pulled to you and banked.",
+    "Do not shoot vases or other fragile loot: they shatter and you lose money.",
+    "Each quota met triggers an extraction that heals you and raises the next quota."
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -72,8 +78,5 @@
     "id": "doom",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:23:04.203Z",
-  "notes": [
-    "Copy mod.pk3 next to GZDoom and run: gzdoom -iwad freedoom2.wad -file mod.pk3. Kill monsters, walk near the gold to grab it, and reach the quota on the top-left counter."
-  ]
+  "built_at": "2026-10-05T15:23:04.203Z"
 }
